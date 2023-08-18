@@ -1,0 +1,17 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header, .title, .footer{
+    background-color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
