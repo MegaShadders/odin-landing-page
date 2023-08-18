@@ -122,3 +122,28 @@ button{
     width: 150px;
     height: 150px;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+}
+
+.quote-text{
+    max-width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+#quote-name{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;    
+    font-style: normal;
+    align-self: flex-end;
+}
