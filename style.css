@@ -90,6 +90,7 @@ button{
     border-radius: 8px;
     padding: 8px 24px;
     width: 100px;
+    height: 35px;
 }
 
 .information{
@@ -146,4 +147,48 @@ button{
     color: black;    
     font-style: normal;
     align-self: flex-end;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    background-color: #3882F6;
+    margin: 48px 100px;
+    padding: 16px 100px;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text{
+    padding: 16px 52px;
+}
+
+.cta-text h2{
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.cta-text p{
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.cta-container button{
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    color: #E5E7EB;
 }
